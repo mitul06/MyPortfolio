@@ -1,10 +1,14 @@
-import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css"
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Navbar from './components/Navbar'
+import { Fragment } from 'react'
 
-function App() {
+function App () {
   return (
-    <h2>Portfolio</h2>
-  );
+    <Fragment>
+      <Navbar />
+    </Fragment>
+  )
 }
 
-export default App;
+export default App
